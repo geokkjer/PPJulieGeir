@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using PPJulieGeir;
 
-Console.WriteLine("Hello, World!");
+
+Console.WriteLine("Welcome to PPJulieGeir!");

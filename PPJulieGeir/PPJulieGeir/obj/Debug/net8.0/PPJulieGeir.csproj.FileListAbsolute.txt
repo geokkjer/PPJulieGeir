@@ -1,0 +1,15 @@
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/bin/Debug/net8.0/PPJulieGeir
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/bin/Debug/net8.0/PPJulieGeir.deps.json
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/bin/Debug/net8.0/PPJulieGeir.runtimeconfig.json
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/bin/Debug/net8.0/PPJulieGeir.dll
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/bin/Debug/net8.0/PPJulieGeir.pdb
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.GeneratedMSBuildEditorConfig.editorconfig
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.AssemblyInfoInputs.cache
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.AssemblyInfo.cs
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.csproj.CoreCompileInputs.cache
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.sourcelink.json
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.dll
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/refint/PPJulieGeir.dll
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.pdb
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/PPJulieGeir.genruntimeconfig.cache
+/home/geir/Documents/GitHub/PPJulieGeir/PPJulieGeir/PPJulieGeir/obj/Debug/net8.0/ref/PPJulieGeir.dll
