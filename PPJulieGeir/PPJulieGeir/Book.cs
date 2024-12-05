@@ -6,7 +6,7 @@ public class Book
     string Author { get; set; } = string.Empty;
     string Publisher  { get; set; } = string.Empty;
     string Description { get; set; } = string.Empty;
-    //DateTime PublishDate { get; set; }
+    DateTime PublishDate { get; set; }
     int PageCount { get; set; }
 
     public Book(
@@ -14,14 +14,14 @@ public class Book
         string author, 
         string publisher, 
         string description, 
-        //DateTime publishDate, 
+        DateTime publishDate, 
         int pageCount)
     {
         Title = title;
         Author = author;
         Publisher = publisher;
         Description = description;
-        //PublishDate = publishDate;
+        PublishDate = publishDate;
         PageCount = pageCount;
     }
 
@@ -43,7 +43,7 @@ public class Book
         Console.WriteLine($"Author: {book.Author}");
         Console.WriteLine($"Publisher: {book.Publisher}");
         Console.WriteLine($"Description: {book.Description}");
-        //Console.WriteLine($"Publish Date: {book.PublishDate}");
+        Console.WriteLine($"Publish Date: {book.PublishDate}");
         Console.WriteLine($"Page Count: {book.PageCount}");
     }
 }

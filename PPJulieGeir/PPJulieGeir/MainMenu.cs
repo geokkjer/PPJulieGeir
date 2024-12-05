@@ -35,11 +35,11 @@ public class MainMenu
                 string publisher = Console.ReadLine();
                 Console.WriteLine("Add Description:");
                 string description = Console.ReadLine();
-                /*Console.WriteLine("Add Publish Date:");
-                DateTime publishDate = DateTime.Parse(Console.ReadLine());*/
+                Console.WriteLine("Add Publish Year:");
+                DateTime publishDate = DateTime.Parse(Console.ReadLine());
                 Console.WriteLine("Add Page Count:");
                 int pageCount = int.Parse(Console.ReadLine());
-                var book1 = new Book(title, author, publisher, description, pageCount);
+                var book1 = new Book(title, author, publisher, description, publishDate,pageCount);
                 Console.WriteLine("Trykk en tast for å se boken!");
                 Console.ReadKey();
                 book1.DisplayBook(book1);
