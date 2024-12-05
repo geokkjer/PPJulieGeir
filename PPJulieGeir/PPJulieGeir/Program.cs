@@ -8,3 +8,7 @@
    *BONUS*:
    Legg til mulighet for å skrive inn flere bøker eller filmer, her trenger man å ta i bruk lister! 
 */
+
+var menu = new MainMenu();
+
+menu.Menu();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPJulieGeir")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2bc35e1edad0fd11d12b5cd460c45936bac3a96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1187aee276802cb861cad3a2e801d8c5f9a04b71")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPJulieGeir")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPJulieGeir")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
