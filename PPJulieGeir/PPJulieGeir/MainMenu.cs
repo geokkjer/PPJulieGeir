@@ -5,10 +5,8 @@ public class MainMenu
     public void Menu()
     {
         Console.Clear();
-        Console.WriteLine("Welcome to Biblioteket: ");
+        Console.WriteLine("Velkommen to Get-Biblioteket: ");
         Console.WriteLine("1.) Legg til bok:");
-        Console.WriteLine("2.) Legg til bok:");
-        Console.WriteLine("3.) Legg til bok:");
         Console.WriteLine("q.) Avslutt programmet!");
         bool running = true;
         while (running)
@@ -17,14 +15,12 @@ public class MainMenu
             switch (input)
             {
                 case "1":
-                    //Book book = new Book("Hallo", "Hallo", "Hallo", "Hallo", new DateTime(24, 12, 12), 112);
                     AddBook();
                     break;
                 case "q":
                     running = false;
                     break;
             }
-
             void AddBook()
             {
                 Console.WriteLine("Add Title:");
@@ -36,17 +32,14 @@ public class MainMenu
                 Console.WriteLine("Add Description:");
                 string description = Console.ReadLine();
                 Console.WriteLine("Add Publish Year:");
-                DateTime publishDate = DateTime.Parse(Console.ReadLine());
+                int publishYear = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Add Page Count:");
                 int pageCount = int.Parse(Console.ReadLine());
-                var book1 = new Book(title, author, publisher, description, publishDate,pageCount);
+                var book1 = new Book(title, author, publisher, description, publishYear,pageCount);
                 Console.WriteLine("Trykk en tast for å se boken!");
                 Console.ReadKey();
                 book1.DisplayBook(book1);
             }
-            
-
-            
         }
     }
 

@@ -6,7 +6,7 @@ public class Book
     string Author { get; set; } = string.Empty;
     string Publisher  { get; set; } = string.Empty;
     string Description { get; set; } = string.Empty;
-    DateTime PublishDate { get; set; }
+    int PublishYear { get; set; }
     int PageCount { get; set; }
 
     public Book(
@@ -14,14 +14,14 @@ public class Book
         string author, 
         string publisher, 
         string description, 
-        DateTime publishDate, 
+        int publishYear, 
         int pageCount)
     {
         Title = title;
         Author = author;
         Publisher = publisher;
         Description = description;
-        PublishDate = publishDate;
+        PublishYear = publishYear;
         PageCount = pageCount;
     }
 
@@ -31,19 +31,18 @@ public class Book
     {
         Console.Clear();
         Console.WriteLine(@"
-    __   __                ______             _       
-    \ \ / /                | ___ \           | |   _  
-     \ V /___  _   _ _ __  | |_/ / ___   ___ | | _(_) 
-      \ // _ \| | | | '__| | ___ \/ _ \ / _ \| |/ /   
-      | | (_) | |_| | |    | |_/ / (_) | (_) |   < _  
-      \_/\___/ \__,_|_|    \____/ \___/ \___/|_|\_(_)                                                   
-                                                  
+    ______ _        ______       _        
+    |  _  (_)       | ___ \     | |     _ 
+    | | | |_ _ __   | |_/ / ___ | | __ (_)
+    | | | | | '_ \  | ___ \/ _ \| |/ /    
+    | |/ /| | | | | | |_/ | (_) |   <   _ 
+    |___/ |_|_| |_| \____/ \___/|_|\_\ (_)                                                                        
 ");
         Console.WriteLine($"Title: {book.Title}");
         Console.WriteLine($"Author: {book.Author}");
         Console.WriteLine($"Publisher: {book.Publisher}");
         Console.WriteLine($"Description: {book.Description}");
-        Console.WriteLine($"Publish Date: {book.PublishDate}");
+        Console.WriteLine($"Publish Date: {book.PublishYear}");
         Console.WriteLine($"Page Count: {book.PageCount}");
     }
 }
